@@ -1,0 +1,201 @@
+* {
+    margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+.backnegro {
+    background-color: #222222 ;
+    width: 100%;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.backnegro p {
+    margin-left: 40px;
+
+}
+.backnegro ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 35px;
+}
+.backnegro ul li {
+    margin-left: 25px;
+}
+.backamarillo {
+    background-color: #F0A83E;
+    width: 100%;
+    height: 73px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    flex-wrap: wrap;
+
+}
+.backamarillo .imglogo {
+  
+    width: 135px;
+    height: 40px;
+    margin-top: 23px;
+    margin-left: 28px;
+    margin-bottom: 8px;
+}
+.backamarillo .lista {
+   margin-top: 12px;
+    margin-right: 10px;
+    display: flex;
+    list-style: none;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+
+}
+.backamarillo .lista li {
+    margin-right: 20px;
+}
+
+.contenedorhead1 {
+    display: flex;
+    width: 100%;
+    
+    
+}
+.contenedorhead1 .imgdelbanner {
+    width: 100%;
+    flex-wrap: wrap;
+}
+.contenedorhead1 .textdenrodebanner {
+    position: absolute;
+    right: 80px;
+    top: 38%;
+    flex-wrap: wrap;
+
+}
+.contenedorhead1 h2 {
+    background-color: white;
+    margin-bottom: 15px;
+    color:  #3C2313;
+    height: 40px;
+    font-weight: bold;
+    
+}
+.contenedorhead1 p {
+    margin-bottom: 12px;
+    color:  #3C2313;
+    font-weight: bold;
+    padding-left: 24px;
+    
+
+}
+.contenedorhead1 button {
+    width: 140px;
+    color: white;
+    background-color: #F0A83E;
+    margin-left: 60px;
+    padding: 12px 12px;
+}
+.contenedorhead2{
+    text-align: center;
+}
+.contenedorimg {
+    display: flex;
+    justify-content: space-around;
+}
+.contenedorimg h3 {
+    color: #3C2313;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500,medium;
+}
+.contenedorimg p {
+    color:#F0A83E;
+    text-align: center;
+    font-weight: bold;
+}
+.contactanos {
+    background-color: #3C2313;
+    height: 400px;
+    
+}
+.contactanos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.contactanos div h2 {
+    margin-bottom: 35px;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+.contactanos div input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    font-size: 18px;
+    color: white;
+}
+.contactanos  .botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    color: white;
+
+}
+footer h1 {
+    background-color: #F0A83E;
+    text-align: center;
+    
+}
+.subscripcion {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-around;
+}
+.subscripcion span {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 18px;
+    width: 50%;
+}
+.subscripcion span h2 {
+    margin-left: 15px;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-weight: bold;
+}
+.subscripcion span img {
+    width: 50px;
+    height: 50px;
+    margin-top: 8px;
+}
+.subscripcion section {
+    display: flex;
+    justify-content: flex-end;
+}
+.subscripcion section input {
+    border-radius: 10px;
+    margin: 10px 25px;
+    padding: 15px 15px 15px 15px;
+}
+.subscripcion section button {
+    width: 120px;
+    height: 50px;
+    border-radius: 26px;
+    margin-top: 10px;
+    background-color: #3C2313;
+    color: white;
+}
+
+
+
+
+
+
